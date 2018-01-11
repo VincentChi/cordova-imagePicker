@@ -58,9 +58,6 @@ public class ImagePicker extends CordovaPlugin {
 					this.cordova.startActivityForResult((CordovaPlugin) this, intent, 0);
 				}
 			}
-			if (this.cordova != null) {
-				this.cordova.startActivityForResult((CordovaPlugin) this, intent, 0);
-			}
 		}
 		return true;
 	}
